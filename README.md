@@ -20,23 +20,10 @@
 	Boolean inet_pton6(String, Integer(15))
 
 
-呼びだすときは
-
-	Dim str As String
-	Dim ipv6(15) As Integer
-	Dim r As Boolean
-	
-	r = inet_pton6(str, ipv6)
-
-のように、バッファはサイズ16個のInteger配列を引数にする
-
-
 それと直接呼べるように二つのユーザ定義関数を作成
 
 	Boolean v6validate(String)
 	Boolean v6normalize(String)
-
-
 
 
 
