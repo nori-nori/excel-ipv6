@@ -1,7 +1,7 @@
-#ExcelでIPv6
+# ExcelでIPv6
 
 
-## What' this?
+## What's this?
 
 * Excel上でIPv6表記の正誤を判定したい
 * 表記を統一したい（RFC5952?）
