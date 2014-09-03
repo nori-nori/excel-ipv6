@@ -20,8 +20,9 @@
 	Boolean inet_pton6(String, Integer(15))
 
 
-それと直接呼べるように二つのユーザ定義関数を作成
+それと直接呼べるように三つのユーザ定義関数を作成
 
+	Boolean v4validate(String)
 	Boolean v6validate(String)
 	Boolean v6normalize(String)
 
@@ -56,5 +57,6 @@
 
 
 ## その他
+
 ライセンスはBSDあたりで
 
